@@ -1,0 +1,20 @@
+
+DEAL::0
+DEAL::	Matrix::Matrix(double)
+DEAL::	Matrix():2.00000
+DEAL::	Matrix::Matrix(double)
+DEAL::	Matrix():5.00000
+DEAL::>>>>>>>> testing [OpRes ] input=3.00000
+DEAL::	void Matrix::vmult(double &, const double &) const
+DEAL::	vmult(): (K*s) == (2.00000 * 3.00000)
+DEAL::	void Matrix::vmult(double &, const double &) const
+DEAL::	vmult(): (K*s) == (5.00000 * 3.00000)
+DEAL::[ result=9.00000 <<<<<<<<
+DEAL::
+DEAL::>>>>>>>> testing [OpRes1 ] input=3.00000
+DEAL::	void Matrix::vmult(double &, const double &) const
+DEAL::	vmult(): (K*s) == (5.00000 * 3.00000)
+DEAL::	void Matrix::vmult(double &, const double &) const
+DEAL::	vmult(): (K*s) == (2.00000 * 15.0000)
+DEAL::[ result=30.0000 <<<<<<<<
+DEAL::
